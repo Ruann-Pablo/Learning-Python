@@ -6,7 +6,7 @@ media_idade = 0
 divisor_media = 0
 
 for i in range(1, 5):
-    nome = str(input('Nome: ')).strip().title()
+    nome = str(input('\nNome: ')).strip().title()
     idade = int(input('Idade: '))
     sexo = str(input('Sexo [M/F]: ')).strip().upper()
 
@@ -34,6 +34,6 @@ print(f'A média de idade do grupo é de {media_idade} anos.')
 if mais_velho:
     print(f'O homem mais velho tem {guarda_idade} anos se chama {mais_velho}')
 else:
-    print('Não há homens no grupo')
+    print('Não há homens no grupo.')
 
 print(f'Ao todo são {cont_mulher} mulheres com menos de 20 anos')
