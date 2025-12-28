@@ -30,7 +30,7 @@ for i in range(1, 5):
 
 media_idade = soma_idade / divisor_media
 
-print(f'A média de idade do grupo é de {media_idade} anos.')
+print(f'A média de idade do grupo é de {media_idade:.1} anos.')
 if mais_velho:
     print(f'O homem mais velho tem {guarda_idade} anos se chama {mais_velho}')
 else:
