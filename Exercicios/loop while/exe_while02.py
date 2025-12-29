@@ -14,11 +14,9 @@ while num_aleatorio != guarda_resposta:
 
     if guarda_resposta > num_aleatorio:
         print('Menos... Tente novamente.\n')
-        continue
 
     if guarda_resposta < num_aleatorio:
         print('Mais... Tente novamente.\n')
-        continue
 
 print(f'Parabéns! Você acertou com {cont_tentativas} tentativas!')
     
