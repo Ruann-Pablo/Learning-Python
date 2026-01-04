@@ -2,7 +2,7 @@ n = int(input('Quantos termos você quer mostrar? Responda: '))
 anterior_termo = 0
 atual_termo = 1
 prox_termo = 0
-i = 0
+i = 3
 
 print('0 -> 1', end=' -> ')
 
