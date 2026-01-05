@@ -8,7 +8,6 @@ resposta = ''
 
 while resposta != 'n':
     num = int(input('Digite um número: '))
-
     resposta = str(input('Deseja continuar [s/n]? Responda: ')).lower().strip()
 
     if resposta != 's' and resposta != 'n':
